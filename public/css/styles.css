@@ -1,0 +1,54 @@
+/* Update the background and text colors to match the Matrix theme */
+html {
+  min-height: 100%;
+  position: relative;
+  background-color: #ffffff;
+  color: #00FF00; /* Green text color */
+}
+
+/* Update the padding and background color of the container */
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #000;
+}
+
+/* Update the navbar styles */
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+    background-color: #000;
+    color: #00FF00; /* Green text color for navbar */
+}
+
+/* Update the navbar link hover color */
+.navbar-nav  li a:hover {
+    color: #00FF00 !important; /* Green hover color */
+}
+
+/* Update the footer styles */
+.footer-padding {
+    padding-bottom: 60px;
+}
+
+.footer {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #000;
+    color: #00FF00; /* Green text color for footer */
+}
+
+/* Update the font size and text color of footer text */
+.footer p {
+    margin-top: 25px;
+    font-size: 12px;
+    color: #00FF00; /* Green text color for footer text */
+}
